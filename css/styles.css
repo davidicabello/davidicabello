@@ -2,14 +2,6 @@ body {
     color: #666;
 }
 
-header {
-    background: #bc1142;
-    height: 70px auto;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-
 .centrado {
     text-align: center;
 }
@@ -23,18 +15,6 @@ header {
     min-width: 0;
     max-width: 70%;
     padding: 20px;
-}
-
-nav ul li a {
-    text-transform: uppercase;
-    text-decoration: none;
-    padding: 10px;
-    color: #212121;
-    font-weight: bold;
-}
-
-nav ul li a:hover {
-    color: white;
 }
 
 .splash {
