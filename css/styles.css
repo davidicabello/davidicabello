@@ -1,0 +1,77 @@
+header {
+    background: #455A64;
+    height: 70px;
+}
+
+.centrado {
+    text-align: center;
+}
+
+.espacios {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.logo {
+    width: 300px;
+    padding: 10px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 30px;
+    padding: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+    color: #212121;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+.splash {
+    width: 100%;
+    height: 100vh;
+    background: url(../images/black-and-white-laptop-computer-5.jpg)no-repeat center center fixed;
+    background-size: cover;
+}
+
+.splash h1 {
+    background: #607D8B;
+    color: whitesmoke;
+    display: inline-block;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+.text {
+    margin-top: 20vh;
+}
+
+.splash .btn {
+    background-color: #00BCD4;
+    font-weight: 500;
+}
+
+.splash .btn:hover {
+    background-color: tomato;
+}
+
+.row .col-md-3 .card {
+    margin-top: 100px;
+}
+
+.justify-content-center {
+    justify-content: center!important;
+}
