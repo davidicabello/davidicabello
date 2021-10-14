@@ -118,7 +118,5 @@ i {
 }
 
 .im {
-    width: auto;
-    float: right;
-    margin: 0;
+  display: inline-block;
 }
