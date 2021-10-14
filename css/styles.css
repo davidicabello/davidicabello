@@ -60,6 +60,9 @@ body {
     padding-top: 100px;
     padding-bottom: 100px;
 }
+.paddingforcol{
+    padding: 60px;
+}
 
 .logo {
     min-width: 0;
