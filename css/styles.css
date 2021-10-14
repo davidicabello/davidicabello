@@ -1,6 +1,12 @@
+body{
+    color: #666;
+}
 header {
-    background: rgb(221, 219, 219);
-    height: 70px;
+    background: #bc1142;
+    height: 70px auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 
 .centrado {
@@ -15,16 +21,6 @@ header {
 .logo {
     width: 300px;
     padding: 10px;
-}
-
-nav ul {
-    float: right;
-    margin-right: 30px;
-    padding: 20px;
-}
-
-nav ul li {
-    display: inline-block;
 }
 
 nav ul li a {
@@ -44,6 +40,7 @@ nav ul li a:hover {
     height: 100vh;
     background: url(../images/black-and-white-laptop-computer-5.jpg)no-repeat center center fixed;
     background-size: cover;
+    display: flex;
 }
 
 .splash h1 {
@@ -75,4 +72,32 @@ nav ul li a:hover {
 .row .col-md-3 {
     justify-content: center;
     display: flex;
+}
+
+#letritas {
+    background: #f2f2f2;
+}
+
+i {
+    color: #bc1142;
+}
+
+.painted {
+    color: grey;
+    font-weight: bold;
+    font-size: 20px;
+}
+.frases i{
+    font-size: 100px;
+}
+.frases h2{
+    padding: 20px;
+}
+
+.quotes p{
+    padding: 30px;
+}
+
+.navbar-collapse{
+    flex-grow: 0;
 }
