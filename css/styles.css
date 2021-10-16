@@ -61,6 +61,11 @@ body {
     padding-bottom: 100px;
 }
 
+.espacios1 {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
 .paddingforcol {
     padding: 60px;
 }
@@ -167,12 +172,15 @@ body {
     display: inline-block;
 }
 
+.descripcion1 {
+    background-color: #f2f2f2;
+}
+
 .wrapper {
     display: inline-flex;
     padding: 30px;
     flex-wrap: wrap;
 }
-
 
 .wrapper .icon {
     position: relative;
@@ -300,6 +308,6 @@ footer p {
     float: right;
 }
 
-.aligncenter{
+.aligncenter {
     align-items: center;
 }
