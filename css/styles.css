@@ -102,12 +102,12 @@ body {
 }
 
 .splash .btn {
-    background-color: #00BCD4;
+    background-color: #75a928;
     font-weight: 500;
 }
 
 .splash .btn:hover {
-    background-color: tomato;
+    background-color: #bc1142;
 }
 
 .row .col-md-3 .card {
