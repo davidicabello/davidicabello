@@ -50,7 +50,7 @@
 
 body {
     color: #666;
-
+    line-height: 1.3;
 }
 
 .centrado {
@@ -67,6 +67,44 @@ body {
     padding-bottom: 75px;
 }
 
+.jSIwrL {
+    width: 40px;
+    position: fixed;
+    bottom: 0px;
+    left: auto;
+    right: 40px;
+    z-index: 10;
+    color: var(--light-slate);
+}
+
+.jJFfEJ {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+}
+
+.jJFfEJ a {
+    margin: 20px auto;
+    padding: 10px;
+    font-family: var(--font-mono);
+    font-size: var(--fz-xxs);
+    line-height: var(--fz-lg);
+    letter-spacing: 0.1em;
+    -webkit-writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
+}
+
+.jJFfEJ::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 90px;
+    margin: 0px auto;
+    background-color: var(--light-slate);
+}
+
 .paddingforcol {
     padding: 60px;
 }
@@ -75,6 +113,12 @@ body {
     min-width: 0;
     max-width: 70%;
     padding: 20px;
+}
+
+.habilidadeslogos {
+    justify-content: space-around;
+    max-width: 60%;
+    margin: auto;
 }
 
 .nav-item {
@@ -149,9 +193,11 @@ body {
 .navbar-collapse {
     flex-grow: 0;
 }
-.navbar{
+
+.navbar {
     transition: top 0.3s;
 }
+
 .displayflex {
     display: flex;
 }
