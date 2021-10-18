@@ -87,7 +87,7 @@ body {
     position: fixed;
     bottom: 0px;
     left: auto;
-    right: 40px;
+    right: 0px;
     z-index: 10;
     color: var(--light-slate);
 }
