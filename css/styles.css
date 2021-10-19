@@ -92,6 +92,10 @@ body {
     color: var(--light-slate);
 }
 
+.jJFfEJ a:hover {
+    color: #ccd6f6;
+}
+
 .jJFfEJ {
     display: flex;
     flex-direction: column;
