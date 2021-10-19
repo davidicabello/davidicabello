@@ -188,8 +188,6 @@ body {
     display: flex;
 }
 
-
-
 .splash .btn {
     background-color: #61eace;
     font-weight: 500;
@@ -499,9 +497,11 @@ footer p {
 strong {
     color: #61eace;
 }
-.hidden{
+
+.hidden {
     display: none;
 }
+
 #app2 {
     color: #ccd6f6;
 }
