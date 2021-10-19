@@ -185,6 +185,7 @@ body {
     border: 1px solid #61eace;
     border-radius: 5px;
     content: '';
+    display: flex;
 }
 
 .text {
