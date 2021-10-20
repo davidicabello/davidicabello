@@ -63,7 +63,13 @@ const TEXTS = [
     'Bienvenido',
     'A mi portfolio',
 ];
+const TEXTSTWO = [
+    'Vo',
+    'So',
+    'Piola'
+];
 const scrambler = new window.Scrambler();
+const scramblerTwo = new window.Scrambler();
 const handleScramble = (text) => {
     document.getElementById('scrambletext').innerHTML = text;
 }
@@ -73,4 +79,15 @@ function printText() {
     setTimeout(printText, 5000);
     i++;
 }
+
+const handleScrambleDos = (text2) => {
+    document.getElementById('scrambletext2').innerHTML = text2;
+}
+let j = 0;
+function printTextDos() {
+    scramblerTwo.scramble(TEXTSTWO[j % TEXTSTWO.length], handleScrambleDos);
+    setTimeout(printTextDos, 5000);
+    j++;
+}
+printTextDos();
 printText();
