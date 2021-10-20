@@ -1,3 +1,4 @@
+
 AOS.init();
 
 var app = document.getElementById('app');
@@ -25,7 +26,7 @@ var typewriter = new Typewriter(app, {
 typewriter.typeString('HTML<b>5</b>')
     .pauseFor(1000)
     .deleteAll()
-    .typeString('CSS<b>3</b>')
+    .typeString('CSS3</b>')
     .pauseFor(1000)
     .deleteAll()
     .typeString('Java<b>Script</b>')
@@ -57,3 +58,14 @@ window.onscroll = function () {
     }
     prevScrollpos = currentScrollPos;
 }
+
+// create an instance of Scrambler.
+const scrambler = new Scrambler();
+
+// define a handler that is called whenever text is scrambled.
+const handleScramble = (text) => {
+    console.log(text);
+}
+
+// call scramble function with the text to be scrambled and handler.
+scrambler.scramble('- Friedrich Nietzsche -', handleScramble);
