@@ -139,10 +139,11 @@ body {
 
 .logo {
     min-width: 0;
-    height: auto;
+    height: 100px;
+    min-height: 300px;
     max-width: 300px;
     padding: 20px;
-    position: sticky;
+    
 }
 
 .habilidadeslogos {
