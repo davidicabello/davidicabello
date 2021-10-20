@@ -60,13 +60,12 @@ window.onscroll = function () {
 
 const TEXTS = [
     'Hola',
-    'Bienvenido',
+    'Bienvenido/a',
     'A mi portfolio',
 ];
 const TEXTSTWO = [
-    'Vo',
-    'So',
-    'Piola'
+    'I build things',
+    ' for the web.',
 ];
 const scrambler = new window.Scrambler();
 const scramblerTwo = new window.Scrambler();
