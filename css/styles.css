@@ -483,6 +483,7 @@ footer p {
     border: 1px solid #61eace;
     border-radius: 5px;
     content: '';
+    z-index: 0;
 }
 
 .aligncenter {
@@ -526,6 +527,7 @@ strong {
     border-radius: 10px;
     box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
     background-color: #61eace;
+    z-index: 0;
 }
 
 #containerskills h2 {
