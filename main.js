@@ -1,4 +1,3 @@
-
 AOS.init();
 
 var app = document.getElementById('app');
@@ -59,13 +58,19 @@ window.onscroll = function () {
     prevScrollpos = currentScrollPos;
 }
 
-// create an instance of Scrambler.
-const scrambler = new Scrambler();
-
-// define a handler that is called whenever text is scrambled.
+const TEXTS = [
+    'Hola',
+    'Bienvenido',
+    'A mi portfolio',
+];
+const scrambler = new window.Scrambler();
 const handleScramble = (text) => {
-    console.log(text);
+    document.getElementById('scrambletext').innerHTML = text;
 }
-
-// call scramble function with the text to be scrambled and handler.
-scrambler.scramble('- Friedrich Nietzsche -', handleScramble);
+let i = 0;
+function printText() {
+    scrambler.scramble(TEXTS[i % TEXTS.length], handleScramble);
+    setTimeout(printText, 5000);
+    i++;
+}
+printText();
