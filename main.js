@@ -75,7 +75,7 @@ const handleScramble = (text) => {
 let i = 0;
 function printText() {
     scrambler.scramble(TEXTS[i % TEXTS.length], handleScramble);
-    setTimeout(printText, 5000);
+    setTimeout(printText, 3500);
     i++;
 }
 
@@ -85,7 +85,7 @@ const handleScrambleDos = (text2) => {
 let j = 0;
 function printTextDos() {
     scramblerTwo.scramble(TEXTSTWO[j % TEXTSTWO.length], handleScrambleDos);
-    setTimeout(printTextDos, 5000);
+    setTimeout(printTextDos, 3500);
     j++;
 }
 printTextDos();
