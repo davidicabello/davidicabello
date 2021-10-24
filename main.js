@@ -25,7 +25,7 @@ var typewriter = new Typewriter(app, {
 typewriter.typeString('HTML<b>5</b>')
     .pauseFor(1000)
     .deleteAll()
-    .typeString('CSS3</b>')
+    .typeString('CSS<b>3</b>')
     .pauseFor(1000)
     .deleteAll()
     .typeString('Java<b>Script</b>')
