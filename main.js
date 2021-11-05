@@ -59,13 +59,11 @@ window.onscroll = function () {
 }
 
 const TEXTS = [
-    'Hola',
-    'Bienvenido/a',
-    'A mi portfolio',
+    'David Iván Cabello',
 ];
 const TEXTSTWO = [
-    'I build things',
-    ' for the web.',
+    'Soy Web-Developer',
+    'Programador.',
 ];
 const scrambler = new window.Scrambler();
 const scramblerTwo = new window.Scrambler();
