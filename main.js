@@ -61,10 +61,6 @@ window.onscroll = function () {
 const TEXTS = [
     'David Iván Cabello',
 ];
-const TEXTSTWO = [
-    'Soy Web-Developer',
-    'Programador.',
-];
 const scrambler = new window.Scrambler();
 const scramblerTwo = new window.Scrambler();
 const handleScramble = (text) => {
@@ -77,14 +73,4 @@ function printText() {
     i++;
 }
 
-const handleScrambleDos = (text2) => {
-    document.getElementById('scrambletext2').innerHTML = text2;
-}
-let j = 0;
-function printTextDos() {
-    scramblerTwo.scramble(TEXTSTWO[j % TEXTSTWO.length], handleScrambleDos);
-    setTimeout(printTextDos, 3500);
-    j++;
-}
-printTextDos();
 printText();
