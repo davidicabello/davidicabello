@@ -628,6 +628,10 @@ strong {
     animation: html-fill 5s forwards;
 }
 
+.fav-logo {
+    font-size: 100px
+}
+
 @keyframes html-fill {
     100% {
         width: 90%;
