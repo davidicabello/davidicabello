@@ -74,3 +74,10 @@ function printText() {
 }
 
 printText();
+
+
+let mochila=cuadernos
+function materiales() {
+    let cartuchera = lapices
+}
+console.log(cartuchera)
